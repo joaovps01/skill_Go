@@ -1,0 +1,21 @@
+@"
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+.idea/
+.vscode/
+*.iml
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+Thumbs.db
+
+*.log
+"@ | Set-Content .gitignore
